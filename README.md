@@ -1,4 +1,4 @@
-# routeoptimizationideas
+# about The Project
 it contains by ideas as a outline
 "Passenger transportation companies face challenges in optimizing routes, minimizing travel time, and maximizing seat usage. I developed an AI-powered route optimization system that dynamically selects the most efficient path based on passenger boarding and drop-off points Using Generic Algorithm — operating on a seat-to-seat model.”
 This shows:
