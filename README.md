@@ -14,6 +14,7 @@ This shows:
 •	Reduce waiting time and travel time
 •	Increase utilization of each vehicle (seat-to-seat basis)
 since these is a outline to know more about this project You can contact me on through my linked IN or email address vivekprasaths@hotmail.com
+
 this are the outputs
 <img width="1896" height="867" alt="image" src="https://github.com/user-attachments/assets/89702682-6431-41f7-acb9-06523ffd2780" />
 <img width="1918" height="960" alt="image" src="https://github.com/user-attachments/assets/3383a589-95d4-47ae-9176-c5b2510d02a3" />
