@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01842b88e7217ad07da4d8917b92c826 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01842b88e7217ad07da4d8917b92c826" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01842b88e7217ad07da4d8917b92c826 = L.map(
+                "map_01842b88e7217ad07da4d8917b92c826",
+                {
+                    center: [1.3124578571428571, 103.85443358571429],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f1eb74f22b0eb70d5c9a6fde3699130a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f1eb74f22b0eb70d5c9a6fde3699130a.addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            var marker_1026d4024d69579a7ba699eabcbed6a7 = L.marker(
+                [1.2836965, 103.8607226],
+                {
+}
+            ).addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            var icon_27119daad4f52d6e4cbc8e1a6880e803 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9aacda594eaa1fafc7b3be1b3ab74ab4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_daaa52c48dba752552beec56844a24b4 = $(`<div id="html_daaa52c48dba752552beec56844a24b4" style="width: 100.0%; height: 100.0%;">START → Marina Bay Sands</div>`)[0];
+                popup_9aacda594eaa1fafc7b3be1b3ab74ab4.setContent(html_daaa52c48dba752552beec56844a24b4);
+            
+        
+
+        marker_1026d4024d69579a7ba699eabcbed6a7.bindPopup(popup_9aacda594eaa1fafc7b3be1b3ab74ab4)
+        ;
+
+        
+    
+    
+                marker_1026d4024d69579a7ba699eabcbed6a7.setIcon(icon_27119daad4f52d6e4cbc8e1a6880e803);
+            
+    
+            var marker_b410e88dee88366e20ee74f51fe813ab = L.marker(
+                [1.3575574, 103.9884812],
+                {
+}
+            ).addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            var icon_d6de286f9706bedcc256c6f7f47adc52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc751d9eb454e5d94d4f4c987424f7d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0e89a48800c46acb661b5252abf5633 = $(`<div id="html_d0e89a48800c46acb661b5252abf5633" style="width: 100.0%; height: 100.0%;">1. Changi Airport</div>`)[0];
+                popup_dc751d9eb454e5d94d4f4c987424f7d9.setContent(html_d0e89a48800c46acb661b5252abf5633);
+            
+        
+
+        marker_b410e88dee88366e20ee74f51fe813ab.bindPopup(popup_dc751d9eb454e5d94d4f4c987424f7d9)
+        ;
+
+        
+    
+    
+                marker_b410e88dee88366e20ee74f51fe813ab.setIcon(icon_d6de286f9706bedcc256c6f7f47adc52);
+            
+    
+            var marker_fec87fefb0b52263e5bc941e7a9894ac = L.marker(
+                [1.4037076, 103.7940374],
+                {
+}
+            ).addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            var icon_6abc5af2348f55f8b27474984df716cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3510226bd8a1dc49b6a5754fb6605fa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4f24b36c818eeb384da1921fc5d3e2d = $(`<div id="html_d4f24b36c818eeb384da1921fc5d3e2d" style="width: 100.0%; height: 100.0%;">2. Singapore Zoo</div>`)[0];
+                popup_3510226bd8a1dc49b6a5754fb6605fa2.setContent(html_d4f24b36c818eeb384da1921fc5d3e2d);
+            
+        
+
+        marker_fec87fefb0b52263e5bc941e7a9894ac.bindPopup(popup_3510226bd8a1dc49b6a5754fb6605fa2)
+        ;
+
+        
+    
+    
+                marker_fec87fefb0b52263e5bc941e7a9894ac.setIcon(icon_6abc5af2348f55f8b27474984df716cb);
+            
+    
+            var marker_c5c88197474c0baca2733a7617f37d15 = L.marker(
+                [1.3269557, 103.8427199],
+                {
+}
+            ).addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            var icon_3776bcc5ad5ba12eea7097f7f7dea9df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b63f07c4ed22137afe757aeca2d3c41f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8e7175a78ba0938439bca7b54591ef9 = $(`<div id="html_f8e7175a78ba0938439bca7b54591ef9" style="width: 100.0%; height: 100.0%;">3. Value hotel thomson</div>`)[0];
+                popup_b63f07c4ed22137afe757aeca2d3c41f.setContent(html_f8e7175a78ba0938439bca7b54591ef9);
+            
+        
+
+        marker_c5c88197474c0baca2733a7617f37d15.bindPopup(popup_b63f07c4ed22137afe757aeca2d3c41f)
+        ;
+
+        
+    
+    
+                marker_c5c88197474c0baca2733a7617f37d15.setIcon(icon_3776bcc5ad5ba12eea7097f7f7dea9df);
+            
+    
+            var marker_771b010a3ae1fc44499912cca64f157d = L.marker(
+                [1.3012281, 103.8423669],
+                {
+}
+            ).addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            var icon_de88556225286071eb4057900b372599 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efabc4e57fdd663eb5385126865e9721 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb8d961f03ae818f3fad7c57da64f130 = $(`<div id="html_fb8d961f03ae818f3fad7c57da64f130" style="width: 100.0%; height: 100.0%;">4. Chancellor @ Orchard Singapore</div>`)[0];
+                popup_efabc4e57fdd663eb5385126865e9721.setContent(html_fb8d961f03ae818f3fad7c57da64f130);
+            
+        
+
+        marker_771b010a3ae1fc44499912cca64f157d.bindPopup(popup_efabc4e57fdd663eb5385126865e9721)
+        ;
+
+        
+    
+    
+                marker_771b010a3ae1fc44499912cca64f157d.setIcon(icon_de88556225286071eb4057900b372599);
+            
+    
+            var marker_421c0330d38120f639ac6f6681e759b8 = L.marker(
+                [1.249689, 103.8297534],
+                {
+}
+            ).addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            var icon_523b4481a552715cf78c27c1a0f7fc45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3699e1440f7e01c7919dba0002617a54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ad71301494fa0325d6a11b47e2e5089 = $(`<div id="html_9ad71301494fa0325d6a11b47e2e5089" style="width: 100.0%; height: 100.0%;">5. Sentosa</div>`)[0];
+                popup_3699e1440f7e01c7919dba0002617a54.setContent(html_9ad71301494fa0325d6a11b47e2e5089);
+            
+        
+
+        marker_421c0330d38120f639ac6f6681e759b8.bindPopup(popup_3699e1440f7e01c7919dba0002617a54)
+        ;
+
+        
+    
+    
+                marker_421c0330d38120f639ac6f6681e759b8.setIcon(icon_523b4481a552715cf78c27c1a0f7fc45);
+            
+    
+            var marker_212477b91038a8fcf47c1dd4d815e056 = L.marker(
+                [1.2643707, 103.8229537],
+                {
+}
+            ).addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            var icon_27fa90a65da2b44e0aca0cca81b97f2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b654e3f5e9bb4f097e901f571554b2f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09cbcc2bc8ad4e08764fee8cea2f403d = $(`<div id="html_09cbcc2bc8ad4e08764fee8cea2f403d" style="width: 100.0%; height: 100.0%;">END → VivoCity</div>`)[0];
+                popup_b654e3f5e9bb4f097e901f571554b2f7.setContent(html_09cbcc2bc8ad4e08764fee8cea2f403d);
+            
+        
+
+        marker_212477b91038a8fcf47c1dd4d815e056.bindPopup(popup_b654e3f5e9bb4f097e901f571554b2f7)
+        ;
+
+        
+    
+    
+                marker_212477b91038a8fcf47c1dd4d815e056.setIcon(icon_27fa90a65da2b44e0aca0cca81b97f2a);
+            
+    
+            var poly_line_8c7c3316db5703b5532cc3afb9aa723c = L.polyline(
+                [[1.2836965, 103.8607226], [1.3575574, 103.9884812], [1.4037076, 103.7940374], [1.3269557, 103.8427199], [1.3012281, 103.8423669], [1.249689, 103.8297534], [1.2643707, 103.8229537]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_01842b88e7217ad07da4d8917b92c826);
+        
+    
+            poly_line_8c7c3316db5703b5532cc3afb9aa723c.bindTooltip(
+                `<div>
+                     Optimized Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
